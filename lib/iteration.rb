@@ -34,5 +34,6 @@ def total_even_pairs(src)
   # this!
   evenSum = 0
   for pair in src do
-    evenSum += ()
+    evenSum += ((pair[0] + 1) % 2) * ((pair[1] + 1) % 2) * (pair.sum)
+  end
 end
