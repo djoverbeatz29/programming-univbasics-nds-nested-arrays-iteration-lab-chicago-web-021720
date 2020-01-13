@@ -19,7 +19,7 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   numArray = []
   for pair in src do
-    strArray.push(pair.max())
+    numArray.push(pair.max())
   end
   numArray
 end
