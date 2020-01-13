@@ -8,6 +8,9 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   strArray = []
   for elem in src do
+    strArray.push("I love #{elem[0]} and #{elem[1]} on my pizza")
+  end
+  strArray
 end
 
 def find_greater_pair(src)
