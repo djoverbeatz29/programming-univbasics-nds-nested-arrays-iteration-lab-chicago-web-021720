@@ -32,4 +32,7 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  evenSum = 0
+  for pair in src do
+    evenSum += ()
 end
